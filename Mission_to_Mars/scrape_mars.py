@@ -79,3 +79,4 @@ def scrape():
     marspage["hemisphere_image_urls"] = hemisphere_image_urls
 
     return marspage
+print(scrape())
