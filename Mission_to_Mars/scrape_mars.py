@@ -6,7 +6,7 @@ import re
 
 def scrape():
     executable_path = {"executable_path": "/usr/local/bin/chromedriver"}
-    browser = Browser("chrome", **executable_path, headless=False)
+    browser = Browser("chrome", **executable_path, headless=True)
 
     # NASA Mars News
     url = 'https://mars.nasa.gov/news/'
